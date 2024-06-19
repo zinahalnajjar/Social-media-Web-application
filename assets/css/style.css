@@ -1,0 +1,240 @@
+/* general text formatting */
+h1,
+h2,
+h3,
+nav,
+footer,
+div {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+}
+
+/* header and footer */
+header,
+footer {
+  color: white;
+  background-color: #4b4b4b;
+}
+
+header h1 {
+  padding: 8px 0 0 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 16px;
+  padding: 0 0 0 20px;
+}
+
+
+/* Form style */
+legend {
+  margin: 0;
+  padding: 5px 0px;
+  height: 27.2px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 21.6px;
+  color: #ffffff;
+  background-color: #808080;
+}
+
+legend span {
+  display: inline;
+  padding: 0px 0px 0px 15px;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  width: 100%;
+  border: none;
+}
+
+form p {
+  margin-top: 8px;
+  margin-left: 16px;
+  padding: 0px 0px 0px 5px;
+}
+form input,
+select {
+  margin: 5px;
+}
+
+form input[type="submit"],
+input[type="reset"] {
+  margin: 10px 10px 10px 20px;
+  font-size: medium;
+  text-transform: capitalize;
+}
+
+section h2 {
+  font-size: 21.6px;
+  background-color: #919191;
+  height: 27.2px;
+  color: #f0f0f0;
+  border: solid 1px black;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+label img {
+  margin: 16px 0px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.sidebar {
+  width: 12%;
+  height: 100%;
+  margin-left: 3%;
+  background-color: hwb(200 80% 16% / 0.99);
+  position: fixed;
+    
+  }
+
+.sidebar a {
+  color: rgb(18, 17, 17);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+    
+  }
+
+  
+/* Style for the links on hover */
+.sidebar a:hover {
+  background-color: hsl(180, 3%, 23%);
+  color: rgb(253, 253, 253);
+}
+
+.sidebar ul,
+.sidebar ol {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  
+}
+
+   /* main article styling */
+main {
+  margin-right: 1%; 
+  margin-left: 16%;
+  width: 68%;
+  height: 100%;
+  background-color: hwb(200 80% 16% / 0.99); /* Background color of the sidebar */
+  position: fixed;
+  overflow-y: auto;
+  z-index: 1;
+}
+main > * {
+  width: 100%; /* Set the width of the content inside main to 100% */
+}
+
+th {
+    text-align: left;
+  }
+
+#postHeader {
+    background-color: #8c8989; /* Change background color */
+    border: 1px solid #0d0c0c; /* Add border */
+    padding: 8px; /* Add padding for better readability */
+    font-size: 20px; /* Set font size to a bigger one */
+    color: white; /* Set text color to white */
+  
+    
+}
+#postedSection {
+    margin-top: 20px; /* Adjust margin to match the spacing */
+    
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-container input {
+  margin: 5px;
+}
+
+#postedSection table {
+  border-spacing: 10px;
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+
+  
+}
+
+#postedSection table td,
+#postedSection table th {
+  border: 1px solid black; /* Add a border to each cell */
+  padding: 10px; 
+  
+}
+
+#informationsection{
+  width: 12%;
+  margin-right: 3%;
+  margin-left: 85%; /* Center the information section horizontally */
+  background-color: hwb(200 80% 16% / 0.99);
+  position: fixed;
+  top: 81px; 
+  bottom: 0; /* Stretch the information section vertically */
+  overflow-y: auto;
+  
+  
+  
+}
+.information {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+
+}
+.avatar {
+  width: 50px; /* Adjust the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
+.information p {
+  font-size: 12px; 
+  margin-bottom: 10px; 
+}
+table input[type="radio"] {
+  margin: 0; /* Remove default margin */
+}
+
+table label img {
+  margin: 0; /* Remove default margin for the images within labels */
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
